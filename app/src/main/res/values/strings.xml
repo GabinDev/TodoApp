@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Navigation App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="page_one">Go to the Page One</string>
+    <string name="title_one">Page One</string>
+    <string name="page_tow">Go to page Tow</string>
+    <string name="page_tow_back">Back</string>
+    <string name="current_state_value">Current state Value :</string>
+    <string name="title_todo">Todo App</string>
+    <string name="delete">Delete All</string>
+    <string name="todo">TODO</string>
+    <string name="add">Add new task</string>
+    <string name="add_todo">Add</string>
+    <string name="text_delete_all">are you sure to delete all</string>
+    <string name="text_delete"> delete</string>
+    <string name="text_cancel">cancel</string>
+</resources>

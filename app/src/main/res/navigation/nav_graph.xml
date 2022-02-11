@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/nav_graph"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            app:startDestination="@id/home4">
+    <fragment
+            android:id="@+id/home4"
+            android:name="com.gby.navigationapp.view.fragments.ListTodoFragment"
+            android:label="home"
+            tools:layout="@layout/list_todo_fragment">
+        <action android:id="@+id/action_home4_to_addTodoFragment" app:destination="@id/addTodoFragment">
+            <argument
+                android:name="idTodo"
+                app:argType="integer"
+                android:defaultValue="0"
+            />
+        </action>
+        <argument android:name="idTodo" app:argType="integer" android:defaultValue="0"/>
+    </fragment>
+    <fragment android:id="@+id/addTodoFragment" android:name="com.gby.navigationapp.view.fragments.AddTodoFragment"
+              android:label="add_todo_fragment" tools:layout="@layout/add_todo_fragment">
+        <action android:id="@+id/action_addTodoFragment_to_home4" app:destination="@id/home4"/>
+    </fragment>
+</navigation>
